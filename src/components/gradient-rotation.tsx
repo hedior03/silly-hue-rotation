@@ -36,7 +36,7 @@ const GradientRotation: FC<GradientRotationProps> = ({
         className="absolute w-full h-2 rounded-md -top-3"
         style={{
           background:
-            "linear-gradient(to right, #FF0000, #FFFF00, #00FF00, #00FFFF, #0000FF, #FF00FF, #FF0000)",
+            "linear-gradient(to right in hsl longer hue, hsl(0,100%,50%), hsl(360,100%,50%))",
         }}
       />
       <Slider
